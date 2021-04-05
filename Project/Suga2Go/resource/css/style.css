@@ -109,10 +109,10 @@ nav a {
   height: 300px;
 }
 
-[data-component="mainSlideshow"] .mainSlides {
+/* [data-component="mainSlideshow"] .mainSlides {
   display: none;
   text-align: center;
-}
+} */
 
 [data-component="mainSlideshow"] .mainSlides.active {
   display: block;
