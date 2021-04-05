@@ -18,7 +18,7 @@
 <body>
   <header>
     <nav>
-      <img rel="logo" src="resource/Images/CorgiButt.png">
+      <img rel="logo" src="resource/Images/dessert01.jpg">
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About Me</a></li>
@@ -29,6 +29,9 @@
   </header>
   <main>
     <section class="slideshows">
+      <div class="flex-container" id="mission">
+        <h1>Feasts for the Eyes</h1>
+      </div>
       <section id="mainSlide" data-component="mainSlideshow">
         <div role="list">
           <article class="mainSlides">
@@ -50,8 +53,15 @@
           <img id="TLImage" rel="sideImage" src="resource/Images/dessert01.jpg">
           <img id="TRImage" rel="sideImage" src="resource/Images/dessert02.jpg">
         </section>
-        <section id="medPic">
-          <img rel="sideImage" src="resource/Images/dessert03.jpg">
+        <section id="medPic" data-component="medSlideshow">
+          <div role="list">
+            <article class="medSlides">
+              <img rel="sideImage" src="resource/Images/dessert03.jpg">
+            </article>
+            <article class="medSlides">
+              <img rel="sideImage" src="resource/Images/dessert04.jpg">
+            </article>
+        </div>
         </section>
       </section>
     </section>
